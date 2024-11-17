@@ -1,0 +1,96 @@
+.ride-details-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #008080;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .card-header h3 {
+    margin-left: 10px;
+  }
+  
+  .card-content {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .amenities {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .amenity {
+    background-color: #f4c430;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .passenger-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .book-button {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #006666;
+    }
+  }
+  
+  .driver-card .card-header {
+    background-color: #f4c430;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .driver-card .card-content {
+    font-size: 14px;
+  }
+  
+  .passenger-card .card-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .passenger-card .card-header h3 {
+    margin-left: 15px;
+  }
+  

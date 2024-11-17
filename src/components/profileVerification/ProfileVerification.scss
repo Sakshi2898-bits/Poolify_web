@@ -1,0 +1,170 @@
+$primary-color: #F4C430;
+$secondary-color: #008080;
+
+.profile-verification {
+  max-width: 700px;
+  margin: 30px auto; /* Added more top/bottom spacing */
+  padding: 30px;
+  background: #fff;
+  border: 1px solid $primary-color;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
+
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: $secondary-color;
+    font-size: 1.8rem;
+  }
+
+  .svg-icon {
+    height: 62px;
+    width: 54px;
+  }
+
+  .profile-photo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  } 
+
+  .section {
+    margin-bottom: 30px; 
+
+    h3 {
+      font-size: 1.4rem;
+      color: $secondary-color;
+      margin-bottom: 15px; 
+      display: flex;
+      align-items: center;
+
+      .icon {
+        margin-right: 10px;
+        color: $primary-color;
+      }
+    }
+
+    .upload-container {
+      input {
+        // margin-top: 15px;
+        margin-left: 15px;
+      }
+
+      .preview {
+        margin-top: 15px; /* Space above the preview image */
+
+        img {
+          max-width: 120px;
+          border-radius: 50%;
+          border: 3px solid $primary-color;
+        }
+      }
+    }
+
+    .clickable-text {
+        cursor: pointer;
+    }
+
+    .edit-form {
+      margin-top: 10px; /* Slight spacing above the form */
+      label {
+        display: block;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 10px; /* Increased space below each label */
+        color: $secondary-color;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px; /* Increased spacing below inputs */
+        border: 1px solid $primary-color;
+        border-radius: 8px;
+        font-size: 1rem;
+      }
+
+      .save-button {
+        margin-top: 15px;
+        background-color: $secondary-color;
+        color: #fff;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: darken($secondary-color, 10%);
+        }
+      }
+    }
+
+    .verification-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px; /* Space between verification items */
+
+      .verify-button {
+        background-color: $primary-color;
+        color: #fff;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+
+        &.verified {
+          background-color: $secondary-color;
+        }
+      }
+
+      .status-icon {
+        margin-left: 15px;
+        font-size: 1.5rem;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .vehicle-selection {
+    margin-top: 20px;
+    h4 {
+      font-size: 1.2rem;
+      color: $secondary-color;
+      margin-bottom: 15px;
+    }
+    .vehicle-options {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .vehicle-option {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &:hover {
+          background-color: #f4f4f4;
+        }
+        .icon {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+  .vehicle-confirmation {
+    margin-top: 20px;
+    p {
+      font-size: 1rem;
+      color: $secondary-color;
+      line-height: 1.5;
+    }
+  }
+}
