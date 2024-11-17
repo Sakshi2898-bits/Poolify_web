@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.586f4d1f.css",
+    "main.js": "/static/js/main.62d7f0c8.js",
+    "static/media/poolifyLogo.png": "/static/media/poolifyLogo.f53b4bc3f2e6a4b3aa6b.png",
+    "static/media/heroSectionImage3.png": "/static/media/heroSectionImage3.2043846050e3a994ecc1.png",
+    "static/media/heroSectionImage2.png": "/static/media/heroSectionImage2.c3d3ec9f194e9a2f507c.png",
+    "static/media/heroSectionImage.png": "/static/media/heroSectionImage.7b59e35fd8d5ce36ac23.png",
+    "static/media/poolifyHome.png": "/static/media/poolifyHome.90cc7eeac7d0e603525b.png",
+    "static/media/poolify.png": "/static/media/poolify.6943031eca48b20d8cd4.png",
+    "static/media/logo2.svg": "/static/media/logo2.5d14d59a54d4ae4dc72a6c752337123c.svg",
+    "index.html": "/index.html",
+    "static/media/logo1.svg": "/static/media/logo1.a9b2afc8bff47ef94f4c9e14419ff2a4.svg",
+    "static/media/profile.svg": "/static/media/profile.c27383752ec1a162e4889ab3b90a981b.svg",
+    "static/media/logo3.svg": "/static/media/logo3.7f6e67ca7f4a8f1b3ba748979b1bbdbd.svg",
+    "main.586f4d1f.css.map": "/static/css/main.586f4d1f.css.map",
+    "main.62d7f0c8.js.map": "/static/js/main.62d7f0c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.586f4d1f.css",
+    "static/js/main.62d7f0c8.js"
+  ]
+}
